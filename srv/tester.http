@@ -1,0 +1,26 @@
+### Get All orders from S4HANA On-Premise system:
+http://localhost:4004/odata/v4/SalesOrder/mySalesOrder
+
+###POST data to S/4HANA
+POST http://localhost:4004/odata/v4/SalesOrder/mySalesOrder
+Content-Type: application/json
+
+{
+        "SalesOrderType": "OR",
+        "SalesOrganization": "BMGB",
+        "DistributionChannel": "DB",
+        "OrganizationDivision": "AC",
+        "SalesDistrict": "000001",
+        "SoldToParty": "49",
+        "SalesOrderDate": "2026-04-12",
+        "to_Item": {
+            "results": [
+            {
+                "SalesOrderItem": "10",
+                "Material": "220",
+                "RequestedQuantity": "5",
+                "RequestedQuantityUnit": "PC"
+            }
+            ]
+        }
+}
