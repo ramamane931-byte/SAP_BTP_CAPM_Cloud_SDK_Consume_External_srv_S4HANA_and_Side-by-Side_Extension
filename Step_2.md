@@ -160,6 +160,33 @@ This command deploys the MTAR file and automatically deletes any services that a
 ###
 ###
 
+<img width="952" height="389" alt="image" src="https://github.com/user-attachments/assets/290a307f-bf3a-454c-bb25-76244fed9786" />
+
+<img width="1122" height="586" alt="image" src="https://github.com/user-attachments/assets/092a72d5-fac8-4ebb-b2fc-1fbcdd145c27" />
+
+<img width="1122" height="262" alt="image" src="https://github.com/user-attachments/assets/d94c078b-8dec-400f-930f-0ca23e6c0b72" />
+
+<img width="907" height="511" alt="image" src="https://github.com/user-attachments/assets/cadf7b48-bce7-4dba-9903-e6300cde9e10" />
+
+<img width="1122" height="103" alt="image" src="https://github.com/user-attachments/assets/bb791943-3bc7-4ae2-a026-4b44f5d9c536" />
+
+<img width="801" height="806" alt="image" src="https://github.com/user-attachments/assets/78e0a7e3-4024-4b70-a596-2acfb0a12471" />
+
+###
+###
+In the CatalogService.cds file we can add virtual element or extra attribute or field to do side-by-side extension of our CAPM Application.
+###
+###
+#### This is how can Design and Develop an SAP BTP CAPM application to consume Sales Order Data from my company’s S/4HANA op-premise system. This is a Side-By-Side Extension in CAPM on SAP BTP. 
+###
+###
+#### Done.
+
+
+
+
+
+
 
 
 
