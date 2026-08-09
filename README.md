@@ -15,16 +15,27 @@ Using SAP CAPM, we will build an extension application on SAP BTP that consumes 
 
 ### Pre-requisites:
 SAP S/4HANA System – An SAP S/4HANA on-premise/private-cloud system containing the Sales Order business data.
+
 SAP Business Accelerator Hub – Access to the standard Sales Order A2X API and its API documentation.
+
 SAP BTP Account – A BTP subaccount with the required services and entitlements.
+
 SAP CAPM Development Environment – BAS/VS Code with the SAP Cloud Application Programming Model.
+
 S/4HANA API Registration – The Sales Order API must be activated/registered and accessible from the BTP application.
+
 Connectivity – Configure the required BTP Destination/Connectivity setup to communicate securely with S/4HANA.
+
 Authentication & Authorization – Configure the appropriate authentication mechanism, such as OAuth, for secure API consumption.
+
 CAP Application – Develop a CAP service that consumes the external S/4HANA Sales Order API.
+
 Deployment – Build and deploy the CAP application to SAP BTP Cloud Foundry.
+
 Clean Core / Side-by-Side Extension – Keep the custom functionality outside the S/4HANA core while using standard S/4HANA APIs.
-Business Scenario
+
+
+### Business Scenario
 
 For example, a company wants to build a custom Sales Order Management application on SAP BTP. Users access the BTP application, while the actual Sales Order data remains in the company's S/4HANA system.
 
@@ -32,7 +43,10 @@ BTP CAP Application → Destination → S/4HANA Sales Order A2X API → S/4HANA
 
 This is a side-by-side extension because the custom application and business logic run independently on SAP BTP, while S/4HANA remains the system of record and is extended through released APIs rather than by modifying the S/4HANA core.
 
-#### Simple architecture:
+### Simple architecture:
+
+<img width="402" height="430" alt="image" src="https://github.com/user-attachments/assets/8c1f5934-bb7a-4052-9175-8985e6e27c24" />
+
 
 User → CAP Application on BTP → Destination → Sales Order A2X API → S/4HANA
 
